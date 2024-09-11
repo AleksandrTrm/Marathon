@@ -1,0 +1,83 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="Label"
+           x:Key="titleStyle">
+
+        <Setter Property="FontSize"
+                Value="74">
+        </Setter>
+
+        <Setter Property="Foreground"
+                Value="White">
+        </Setter>
+        
+    </Style>
+
+
+    <Style TargetType="TextBlock"
+       x:Key="subTitle">
+
+        <Setter Property="FontSize"
+            Value="34">
+        </Setter>
+
+        <Setter Property="Foreground"
+            Value="#CBCBCB">
+        </Setter>
+
+    </Style>
+
+    <Style TargetType="Label"
+           x:Key="userDataLabels">
+
+        <Setter Property="FontSize"
+                Value="34">
+        </Setter>
+
+        <Setter Property="HorizontalAlignment"
+                Value="Right">
+        </Setter>
+
+        <Setter Property="Padding"
+                Value="0, 0, 25, 0">
+        </Setter>
+
+    </Style>
+
+    <Style TargetType="Label"
+           x:Key="sponsorTitles">
+
+        <Setter Property="FontSize"
+                Value="34">
+        </Setter>
+
+        <Setter Property="Foreground"
+                Value="Gray">
+        </Setter>
+
+    </Style>
+
+    <Style TargetType="Label"
+           x:Key="bmiCalcLabel">
+
+        <Setter Property="FontSize" Value="38"></Setter>
+
+        <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+
+    </Style>
+
+    <Style TargetType="Label"
+           x:Key="measurementSystemLabel">
+
+        <Setter Property="FontSize" Value="38"></Setter>
+
+        <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+
+        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+
+    </Style>
+
+</ResourceDictionary>

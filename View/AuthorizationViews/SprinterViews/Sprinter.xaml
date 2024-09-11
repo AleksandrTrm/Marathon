@@ -1,0 +1,63 @@
+﻿<UserControl x:Class="Marathone.View.AuthorizationViews.SprinterViews.Sprinter"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Marathone.View.AuthorizationViews.SprinterViews"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1920">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Style="{StaticResource sponsorTitles}"
+               HorizontalAlignment="Center"
+               Padding="0, 20">Меню бегуна</Label>
+
+        <Grid Grid.Row="1">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Button FontSize="28"
+                    Padding="20">Регистрация на марафон</Button>
+
+            <Button FontSize="28"
+                    Padding="20"
+                    Grid.Column="1">Мои результаты</Button>
+
+            <Button FontSize="28"
+                    Padding="20"      
+                    Grid.Row="1">
+                
+                <Button.Content>
+                    <TextBlock TextWrapping="Wrap"
+                               TextAlignment="Center">Редактирование профиля</TextBlock>
+                </Button.Content>
+                
+            </Button>
+
+            <Button FontSize="28"                        
+                    Padding="20"
+                    Grid.Row="1"
+                    Grid.Column="1">Мой спонсор</Button>
+
+
+            <Button FontSize="28"                        
+                    Padding="20"
+                    Grid.Row="2">Контакты</Button>
+            
+        </Grid>
+    </Grid>
+</UserControl>

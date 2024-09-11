@@ -1,0 +1,62 @@
+﻿<UserControl x:Class="Marathone.View.Common"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Marathone.View"
+             xmlns:vm="clr-namespace:Marathone.ViewModel"
+             mc:Ignorable="d" 
+             d:DesignHeight="1080" d:DesignWidth="1920">
+
+    <Grid Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="0.12*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#525252">
+
+            <StackPanel HorizontalAlignment="Left"
+                        Orientation="Horizontal"                        
+                        VerticalAlignment="Center">
+
+                <Button HorizontalAlignment="Left"
+                        MinWidth="200"
+                        Command="{Binding MainMenuCommand}">Назад</Button>
+
+                <Label Style="{StaticResource titleStyle}">MARATHON SKILLS 2016</Label>
+
+            </StackPanel>
+
+            <Button HorizontalAlignment="Right"
+                    MinWidth="200"
+                    Visibility="Collapsed"
+                    x:Name="Logout"
+                    Command="{Binding MainMenuCommand}">Logout</Button>
+            
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+            <ContentControl x:Name="Pages"
+                        Content="{Binding CurrentView}" />
+
+        </Grid>
+
+        <Grid Grid.Row="2"
+              Background="#525252">
+
+            <Label Grid.Row="2"
+               Style="{StaticResource titleStyle}"
+               FontSize="36"
+               VerticalAlignment="Center"
+               HorizontalAlignment="Center"
+               x:Name="daysLeft">
+            </Label>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

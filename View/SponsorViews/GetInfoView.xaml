@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Marathone.View.SponsorViews.GetInfoView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Marathone.View.SponsorViews"
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="400">
+    <Grid Background="White">
+        <Border BorderBrush="Gray"
+        BorderThickness="2">
+        </Border>
+
+        <StackPanel Orientation="Horizontal">
+
+
+
+            <Image Source="\Assets\cat.png" 
+                   x:Name="picture"
+                   Height="60"></Image>
+
+            <StackPanel Orientation="Vertical"
+                        VerticalAlignment="Center"
+                        Margin="20, 0">
+
+                <Label FontSize="26"
+                       x:Name="title"
+                       HorizontalAlignment="Center"
+                       FontWeight="SemiBold"
+                       Foreground="Black">Title</Label>
+
+                <TextBlock TextWrapping="Wrap"
+                           FontSize="21"
+                           x:Name="discription"
+                           Margin="20, 20">Text</TextBlock>
+
+            </StackPanel>
+
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>

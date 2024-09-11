@@ -1,0 +1,324 @@
+﻿<UserControl x:Class="Marathone.View.MoreInfoViews.BMICalculatorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:Marathone.View.MoreInfoViews"
+             xmlns:converters="clr-namespace:Marathone.Styles.Converters"
+             mc:Ignorable="d"
+             d:DesignHeight="800" d:DesignWidth="1200">
+
+    <UserControl.Resources>
+        <converters:CanvasSizeToTrianglePointsConverter x:Key="CanvasSizeToTrianglePointsConverter"></converters:CanvasSizeToTrianglePointsConverter>
+        <converters:HumanViewSizeConverter x:Key="HumanViewSizeConverter"></converters:HumanViewSizeConverter>
+    </UserControl.Resources>
+
+    <Grid Background="White">
+
+        <ScrollViewer>
+
+            <StackPanel>
+
+                <Label FontSize="50"
+                       Foreground="Gray"
+                       Padding="0, 36, 0, 22"
+                       HorizontalAlignment="Center">
+                    BMI калькулятор
+                </Label>
+
+                <Grid>
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Column="1"
+                          HorizontalAlignment="Center">
+
+                        <StackPanel>
+                            <TextBlock FontSize="26"
+                                       Margin="10"
+                                       TextWrapping="Wrap">
+                                ИМТ(BMI) позволяет оценить соответствие веса росту человека, и показывает нормальный ли у вас вес: недостаточный или избыточный.
+                            </TextBlock>
+
+                            <StackPanel Orientation="Horizontal"
+                                        Margin="20"
+                                        HorizontalAlignment="Center">
+
+                                <RadioButton x:Name="ManButton"
+                                             IsEnabledChanged="ManButton_OnIsEnabledChanged"
+                                             Margin="0, 10, 5, 0"
+                                             Style="{StaticResource GenderButton}">
+
+                                    <StackPanel>
+                                        <Image Width="64"
+                                               Source="../icons/../../Assets/Calculator/male-icon.png">
+                                        </Image>
+                                        <TextBlock FontSize="26">Мужской</TextBlock>
+                                    </StackPanel>
+
+                                </RadioButton>
+
+                                <RadioButton x:Name="WomanButton"
+                                             IsEnabledChanged="WomanButton_OnIsEnabledChanged"
+                                             Margin="5, 10, 0, 0"
+                                             Style="{StaticResource GenderButton}">
+
+                                    <StackPanel>
+                                        <Image Width="64"
+                                               Source="../icons/../../Assets/Calculator/female-icon.png">
+                                        </Image>
+                                        <TextBlock FontSize="26">Женский</TextBlock>
+                                    </StackPanel>
+
+                                </RadioButton>
+
+                            </StackPanel>
+
+                            <Grid Margin="0, 30, 0, 0">
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+
+                                <Label HorizontalAlignment="Right"
+                                       Style="{StaticResource bmiCalcLabel}">
+                                    Рост:
+                                </Label>
+
+                                <TextBox Grid.Row="0"
+                                         Grid.Column="1"
+                                         x:Name="HeightValue"
+                                         Margin="10"
+                                         Width="100"
+                                         Height="40">
+                                </TextBox>
+
+                                <Label Grid.Row="0"
+                                       Grid.Column="2"
+                                       Style="{StaticResource measurementSystemLabel}">
+                                    см
+                                </Label>
+
+                                <Label Grid.Column="0" HorizontalAlignment="Right"
+                                       Grid.Row="1"
+                                       Style="{StaticResource bmiCalcLabel}">
+                                    Вес:
+                                </Label>
+
+                                <TextBox Grid.Column="1"
+                                         Grid.Row="1"
+                                         x:Name="WeightValue"
+                                         Margin="10"
+                                         Width="100"
+                                         Height="40">
+                                </TextBox>
+
+                                <Label Grid.Column="2"
+                                       Grid.Row="1"
+                                       Style="{StaticResource measurementSystemLabel}">
+                                    кг
+                                </Label>
+
+                            </Grid>
+
+                            <StackPanel Orientation="Horizontal"
+                                        HorizontalAlignment="Center">
+
+                                <Button FontSize="36"
+                                        Click="ButtonBase_OnClick"
+                                        Background="#ebebeb"
+                                        Padding="10">
+                                    Рассчитать
+                                </Button>
+
+                                <Button FontSize="36"
+                                        Command="{Binding MoreInfoCommand}"
+                                        Background="#ebebeb"
+                                        Padding="10">
+                                    Отмена
+                                </Button>
+
+                            </StackPanel>
+
+                        </StackPanel>
+                    </Grid>
+
+                    <Grid Grid.Column="2"
+                          Margin="40">
+
+                        <Grid.RowDefinitions>
+                            <RowDefinition MinHeight="200" MaxHeight="550"></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+
+                        <Grid>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition MinWidth="250" MaxWidth="600"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Border BorderThickness="2"
+
+                                    Background="#ebebeb"
+                                    Grid.Column="1"
+                                    BorderBrush="Black">
+
+                                <StackPanel>
+                                    <Image x:Name="HumanStateImage"
+                                           Source="../icons/../../Assets/Calculator/bmi-healthy-icon.png">
+                                    </Image>
+                                    <TextBlock FontSize="30"
+                                               Padding="20, 0, 20, 20"
+                                               HorizontalAlignment="Center"
+                                               x:Name="HumanState">
+                                        Здоровый
+                                    </TextBlock>
+                                </StackPanel>
+
+                            </Border>
+
+                        </Grid>
+
+                        <Grid Grid.Row="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="9*"/>
+                                <ColumnDefinition Width="220*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Canvas Name="ArrowField"
+                                    MinHeight="50"
+                                    MaxHeight="80"
+                                    Background="White" Margin="0,-16,0,0" Grid.ColumnSpan="2">
+                                <Path Stroke="Black" 
+                                      Fill="LightBlue" 
+                                      StrokeThickness="2"
+                                      x:Name="Triangle">
+                                    <Path.Data>
+                                        <PathGeometry>
+                                            <PathFigure
+                                                StartPoint="{Binding ActualHeight, ElementName=ArrowField, Converter={StaticResource CanvasSizeToTrianglePointsConverter}, ConverterParameter=BottomPoint}">
+                                                <LineSegment
+                                                    Point="{Binding ActualHeight, ElementName=ArrowField, Converter={StaticResource CanvasSizeToTrianglePointsConverter}, ConverterParameter=LeftTopPoint}" />
+                                                <LineSegment
+                                                    Point="{Binding ActualHeight, ElementName=ArrowField, Converter={StaticResource CanvasSizeToTrianglePointsConverter}, ConverterParameter=RightTopPoint}" />
+                                                <LineSegment
+                                                    Point="{Binding ActualHeight, ElementName=ArrowField, Converter={StaticResource CanvasSizeToTrianglePointsConverter}, ConverterParameter=BottomPoint}" />
+                                            </PathFigure>
+                                        </PathGeometry>
+                                    </Path.Data>
+                                </Path>
+
+                                <Label Grid.Row="1"                                    
+                                       x:Name="IndexResult"
+                                       Foreground="Black"
+                                       FontSize="40" 
+                                       HorizontalAlignment="Center"
+                                       Canvas.Top="-35" Canvas.Left="-12">
+                                    10.0
+                                </Label>
+
+                            </Canvas>
+
+                        </Grid>
+
+                        <Grid Grid.Row="3"
+                              MaxHeight="60"
+                              x:Name="RectangleGrid">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width=".73*"></ColumnDefinition>
+                                <ColumnDefinition Width="1.41*"></ColumnDefinition>
+                                <ColumnDefinition Width="1*"></ColumnDefinition>
+                                <ColumnDefinition Width="1.8*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+
+                            <Rectangle Grid.Column="0"
+                                       Grid.Row="0"
+                                       Fill="Orange"
+                                       Height="{Binding ActualHeight, ElementName=RectangleGrid}">
+                            </Rectangle>
+
+                            <Label Grid.Column="0"
+                                   Grid.Row="1"
+                                   FontSize="14"
+                                   HorizontalAlignment="Center"
+                                   Foreground="Black">
+                                Недостаточный
+                            </Label>
+
+                            <Rectangle Grid.Column="1"
+                                       Grid.Row="0"
+                                       Fill="Green"
+                                       Height="{Binding ActualHeight, ElementName=RectangleGrid}">
+                            </Rectangle>
+
+                            <Label Grid.Column="1"
+                                   Grid.Row="1"
+                                   FontSize="14"
+                                   HorizontalAlignment="Center"
+                                   Foreground="Black">
+                                Здоровый
+                            </Label>
+
+                            <Rectangle Grid.Column="2"
+                                       Grid.Row="0"
+                                       Fill="Yellow"
+                                       Height="{Binding ActualHeight, ElementName=RectangleGrid}">
+                            </Rectangle>
+
+                            <Label Grid.Column="2"
+                                   Grid.Row="1"
+                                   FontSize="14"
+                                   HorizontalAlignment="Center"
+                                   Foreground="Black">
+                                Избыточный
+                            </Label>
+
+                            <Rectangle Grid.Column="3"
+                                       Grid.Row="0"
+                                       Fill="Red"
+                                       Height="{Binding ActualHeight, ElementName=RectangleGrid}">
+                            </Rectangle>
+
+                            <Label Grid.Column="3"
+                                   Grid.Row="1"
+                                   FontSize="14"
+                                   HorizontalAlignment="Center"
+                                   Foreground="Black">
+                                Ожирение
+                            </Label>
+
+                        </Grid>
+
+                    </Grid>
+
+                </Grid>
+
+            </StackPanel>
+
+        </ScrollViewer>
+
+    </Grid>
+</UserControl>

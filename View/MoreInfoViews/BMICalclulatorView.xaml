@@ -1,0 +1,179 @@
+﻿<UserControl x:Class="Maraphone.View.MoreInfoViews.BMICalclulatorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Maraphone.View.MoreInfoViews"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="1200">
+    <Grid Background="White">
+
+        <StackPanel>
+
+            <Label FontSize="50"
+                   Foreground="Gray"
+                   Padding="0, 36, 0, 22"
+                   HorizontalAlignment="Center">
+                BMI калькулятор
+            </Label>
+
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition Width="0.1*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid Grid.Column="1"
+                      HorizontalAlignment="Center">
+
+                    <StackPanel>
+                        <TextBlock FontSize="26"
+                                   Margin="10"
+                                   TextWrapping="Wrap">
+                        ИМТ(BMI) позволяет оценить соответствие веса росту человека, и показывает нормальный ли у вас вес: недостаточный или избыточный.
+                        </TextBlock>
+
+                        <StackPanel Orientation="Horizontal"
+                                    Margin="20"
+                                    HorizontalAlignment="Center">
+
+                            <Button x:Name="manButton"
+                                    Margin="0, 10, 5, 0"                                   
+                                    Style="{StaticResource genderButton}">
+
+                                <StackPanel>
+                                    <Image Width="64"
+                                           Source="H:\Учебная практика\Maraphone1\Maraphone\Assets\Calculator\male-icon.png"></Image>
+                                    <TextBlock FontSize="26">Мужской</TextBlock>
+                                </StackPanel>
+
+                            </Button>
+
+                            <Button x:Name="womanButton"
+                                    Margin="5, 10, 0, 0"
+                                    Style="{StaticResource genderButton}">
+
+                                <StackPanel>
+                                    <Image Width="64"
+                                           Source="H:\Учебная практика\Maraphone1\Maraphone\Assets\Calculator\female-icon.png"></Image>
+                                    <TextBlock FontSize="26">Женский</TextBlock>
+                                </StackPanel>
+
+                            </Button>
+
+                        </StackPanel>
+
+                        <Grid Margin="0, 30, 0, 0">
+
+                            <Grid.RowDefinitions>
+                                <RowDefinition></RowDefinition>
+                                <RowDefinition></RowDefinition>
+                            </Grid.RowDefinitions>
+
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition></ColumnDefinition>
+                                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                                <ColumnDefinition></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <Label HorizontalAlignment="Right"
+                                   Style="{StaticResource bmiCalcLabel}">Рост:</Label>
+
+                            <TextBox Grid.Column="1"
+                                     Margin="10"
+                                     Width="100"
+                                     Height="40"></TextBox>
+
+                            <Label Grid.Column="2"
+                                   Style="{StaticResource measurementSystemLabel}">см</Label>
+
+                            <Label HorizontalAlignment="Right"
+                                   Grid.Row="1"
+                                   Style="{StaticResource bmiCalcLabel}">Вес:</Label>
+
+                            <TextBox Grid.Column="1"
+                                     Grid.Row="1"
+                                     Margin="10"
+                                     Width="100"
+                                     Height="40"></TextBox>
+
+                            <Label Grid.Column="2"
+                                   Grid.Row="1"
+                                   Style="{StaticResource measurementSystemLabel}">кг</Label>
+
+                        </Grid>
+
+                        <StackPanel Orientation="Horizontal"
+                                    HorizontalAlignment="Center">
+
+                            <Button FontSize="36"
+                                    Background="#ebebeb"
+                                    Padding="10">Рассчитать</Button>
+
+                            <Button FontSize="36"
+                                    Background="#ebebeb"
+                                    Padding="10">Отмена</Button>
+
+                        </StackPanel>
+
+                    </StackPanel>
+                </Grid>
+
+                <Grid Grid.Column="2"
+                      Margin="40">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition Width="2.5*"></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Border BorderThickness="2" 
+                                Background="#ebebeb"
+                                Grid.Column="1"
+                                BorderBrush="Black">
+
+                            <StackPanel>
+                                <Image Margin="20" x:Name="humanStateImage" Source="H:\Учебная практика\Maraphone1\Maraphone\Assets\Calculator\bmi-healthy-icon.png"></Image>
+                                <TextBlock FontSize="36"
+                                           HorizontalAlignment="Center"                                           
+                                           x:Name="humanState">Здоровый</TextBlock>
+                            </StackPanel>
+
+                        </Border>
+
+                    </Grid>
+
+                    <Label Grid.Row="1"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           Foreground="Black"
+                           FontSize="40">24.2
+                    </Label>
+
+                    <Grid Grid.Row="2">
+
+                        <Polygon Fill="Gray"></Polygon>
+                        
+                    </Grid>
+                    
+                </Grid>
+
+            </Grid>
+
+        </StackPanel>
+
+    </Grid>
+</UserControl>

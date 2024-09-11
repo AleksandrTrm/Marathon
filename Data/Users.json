@@ -1,0 +1,100 @@
+{
+  "User": [
+    {
+      "Email": "example@mail.ru",
+      "Password": "123456",
+      "Role": "admin",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "example1@mail.ru",
+      "Password": "321",
+      "Role": "admin",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "spinter@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "sprinter1@mail.ru",
+      "Password": "321",
+      "Role": "sprinter",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "coordinator@mail.ru",
+      "Password": "123",
+      "Role": "coordinator",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "coordinator@mail.ru",
+      "Password": "321",
+      "Role": "coordinator",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": ""
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": null
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": null
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": "285"
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": null
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": "285"
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": null
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": "285"
+    },
+    {
+      "Email": "mail@mail.ru",
+      "Password": "123",
+      "Role": "sprinter",
+      "MarathonInfo": "0"
+    }
+  ]
+}

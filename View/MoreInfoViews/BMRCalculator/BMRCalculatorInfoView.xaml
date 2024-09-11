@@ -1,0 +1,82 @@
+﻿<Window x:Class="Maraphone.View.MoreInfoViews.BMRCalculator.BMRCalculatorInfoView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Maraphone.View.MoreInfoViews.BMRCalculator"
+        mc:Ignorable="d"
+        Title="BMRCalculatorInfoView" Height="600" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None">
+    
+    <Grid Background="White"
+          MouseDown="UIElement_OnMouseDown">
+        
+        <Border BorderBrush="Gray"
+                BorderThickness="2">
+        </Border>
+
+        <StackPanel>
+
+            <Button MaxWidth="30"
+                    Margin="0"
+                    HorizontalAlignment="Right"
+                    Click="ButtonBase_OnClick"
+                    BorderBrush="Transparent">
+                <Image Source="\Assets\cross.png"
+                       Height="20">
+                </Image>
+            </Button>
+
+            <Label FontSize="26"
+                   x:Name="title"
+                   HorizontalAlignment="Center"
+                   Padding="0, 0, 0, 20"
+                   Foreground="Black">
+                Уровни активности
+            </Label>
+
+            <StackPanel>
+
+                <TextBlock TextWrapping="Wrap"
+                           Margin="20"
+                           FontSize="22">
+                    - Сидячий: Минимальная физическая активность.
+                    Большую часть дня человек сидит (офисная работа, отдых на диване).
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap"
+                           Margin="20"
+                           FontSize="22">
+                    - Маленькая активность: Легкая активность, например, короткие прогулки, 
+                    бытовые дела, редкие тренировки (1-2 раза в неделю).
+                </TextBlock>
+
+                <TextBlock TextWrapping="Wrap"
+                           Margin="22"
+                           FontSize="20">
+                    - Средняя активность: Регулярная умеренная активность, 
+                    такие как занятия спортом 3-4 раза в неделю, активный образ жизни.
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap"
+                           Margin="20"
+                           FontSize="22">
+                    - Сильная активность: Частые интенсивные тренировки (5-6 раз в неделю), 
+                    включающие кардио и силовые нагрузки.
+                </TextBlock>
+                
+                <TextBlock TextWrapping="Wrap"
+                           Margin="20"
+                           FontSize="22">
+                    - Максимальная активность: Ежедневные интенсивные тренировки или 
+                    физически тяжелая работа, требующая высокой выносливости.
+                </TextBlock>
+                
+            </StackPanel>
+
+        </StackPanel>
+
+    </Grid>
+</Window>

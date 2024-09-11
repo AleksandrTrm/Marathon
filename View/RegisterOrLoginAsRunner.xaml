@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Marathone.View.RegisterOrLoginAsRunner"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:Marathone.ViewModel"
+             xmlns:local="clr-namespace:Marathone.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="1.2*"></RowDefinition>
+            <RowDefinition Height="1.2*"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Button Name="oldrunner"                                        
+                Grid.Column="1"
+                Grid.Row="1"
+                Command="{Binding LoginCommand}"
+                Content="Я учавствовал ранее">
+        </Button>
+
+        <Button Name="newrunner"
+                Grid.Column="1"
+                Grid.Row="2"   
+                Command="{Binding RegistrationCommand}"
+                Content="Я новый участник">
+        </Button>
+
+        <Button Name="login"
+                Command="{Binding LoginCommand}"
+                Grid.Column="2"
+                Grid.Row="3"
+                Content="login"
+                Width="130"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Margin="5"
+                Height="80">
+        </Button>
+
+    </Grid>
+</UserControl>

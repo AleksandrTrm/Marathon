@@ -1,0 +1,24 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Style TargetType="TextBox">
+
+        <Setter Property="Grid.Column"
+                Value="1">
+        </Setter>
+
+        <Setter Property="BorderBrush"
+                Value="Black">
+        </Setter>
+
+        <Setter Property="FontSize"
+                Value="34">
+        </Setter>
+
+        <Setter Property="BorderBrush"
+                Value="Black">
+        </Setter>
+
+    </Style>
+    
+</ResourceDictionary>

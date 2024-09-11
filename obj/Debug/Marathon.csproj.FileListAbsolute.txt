@@ -1,0 +1,284 @@
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\Maraphone.exe.config
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\Maraphone.exe
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\Maraphone.pdb
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Marathon.csproj.AssemblyReference.cache
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\MainWindow.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\App.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone_MarkupCompile.cache
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone_MarkupCompile.lref
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\MainWindow.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone.g.resources
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone.Properties.Resources.resources
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Marathon.csproj.GenerateResource.cache
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Marathon.csproj.CoreCompileInputs.cache
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone.exe
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone.pdb
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Styles\Buttons.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Styles\Labels.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\App.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\Login.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\RegisterAsRunner.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Utilities\DataTemplate.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\Login.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\RegisterAsRunner.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\MainMenu.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\MainMenu.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\Common.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\Common.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Styles\TextBox.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\SponsorView.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfo.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\Gratitude.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\SponsorView.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfo.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\Gratitude.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.baml
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Memory.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Text.Json.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Numerics.Vectors.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Buffers.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.ValueTuple.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Text.Encodings.Web.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\System.Threading.Tasks.Extensions.dll
+H:\Учебная практика\Maraphone\Maraphone\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Marathon.csproj.SuggestedBindingRedirects.cache
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Maraphone.exe.config
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\Marathon.csproj.Up2Date
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.baml
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.g.cs
+H:\Учебная практика\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\Maraphone.exe.config
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\Maraphone.exe
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\Maraphone.pdb
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Memory.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Text.Json.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Buffers.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.ValueTuple.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Marathon.csproj.AssemblyReference.cache
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Marathon.csproj.SuggestedBindingRedirects.cache
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone.exe.config
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Styles\Buttons.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Styles\Labels.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Styles\TextBox.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\MainWindow.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Common.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Login.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MainMenu.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfo.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\SponsorView.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\Gratitude.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\App.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone_MarkupCompile.cache
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone_MarkupCompile.lref
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\App.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\MainWindow.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Utilities\DataTemplate.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Common.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Login.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MainMenu.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfo.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\SponsorView.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\SponsorViews\Gratitude.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone.g.resources
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone.Properties.Resources.resources
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Marathon.csproj.GenerateResource.cache
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Marathon.csproj.CoreCompileInputs.cache
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Marathon.csproj.Up2Date
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone.exe
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\Maraphone.pdb
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Registration.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Registration.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MarathoneRegistration.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\MarathoneRegistration.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Confirm.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Confirm.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Distantion.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\Distantion.baml
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\HowLong.g.cs
+C:\Users\sanya\Downloads\Maraphone\Maraphone\obj\Debug\View\HowLong.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\Maraphone.exe.config
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\Maraphone.exe
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\Maraphone.pdb
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Memory.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Text.Json.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Buffers.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.ValueTuple.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.AssemblyReference.cache
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.SuggestedBindingRedirects.cache
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone.exe.config
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Styles\Buttons.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Styles\Labels.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Styles\TextBox.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\MainWindow.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Common.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Confirm.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Distantion.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\HowLong.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Login.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MainMenu.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MarathoneRegistration.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Registration.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfo.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\SponsorView.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\Gratitude.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\App.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone_MarkupCompile.cache
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone_MarkupCompile.lref
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\App.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\MainWindow.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Utilities\DataTemplate.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Common.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Confirm.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Distantion.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\HowLong.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Login.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MainMenu.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MarathoneRegistration.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Registration.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfo.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\SponsorView.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\Gratitude.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone.g.resources
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone.Properties.Resources.resources
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.GenerateResource.cache
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.CoreCompileInputs.cache
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.Up2Date
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone.exe
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\Maraphone.pdb
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMICalculatorView.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMICalculatorView.baml
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\Maraphone.exe.config
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\Maraphone.exe
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\Maraphone.pdb
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Memory.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Text.Json.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Numerics.Vectors.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Buffers.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.ValueTuple.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Text.Encodings.Web.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\System.Threading.Tasks.Extensions.dll
+H:\Учебная практика\Maraphone1\Maraphone\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.AssemblyReference.cache
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.SuggestedBindingRedirects.cache
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone.exe.config
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Styles\Buttons.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Styles\Labels.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Styles\TextBox.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\MainWindow.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Common.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Confirm.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Distantion.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\HowLong.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Login.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MainMenu.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MarathoneRegistration.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMICalculatorView.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Registration.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfo.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\SponsorView.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\Gratitude.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\App.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\GeneratedInternalTypeHelper.g.cs
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone_MarkupCompile.cache
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone_MarkupCompile.lref
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\App.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\MainWindow.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Utilities\DataTemplate.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Common.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Confirm.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Distantion.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\HowLong.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Login.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MainMenu.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MarathoneRegistration.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMICalculatorView.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\Registration.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfo.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\SponsorView.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\Gratitude.baml
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone.g.resources
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone.Properties.Resources.resources
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.GenerateResource.cache
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.CoreCompileInputs.cache
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Marathon.csproj.Up2Date
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone.exe
+H:\Учебная практика\Maraphone1\Maraphone\obj\Debug\Maraphone.pdb
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMRCalculator\BMRCalculator.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMRCalculator\BMRCalculator.baml
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMRCalculator\BMRCalculatorInfoView.g.cs
+C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMRCalculator\BMRCalculatorInfoView.baml

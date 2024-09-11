@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C7CFA41-EF75-43A2-A10C-9F2BD225E74A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Maraphone</RootNamespace>
+    <AssemblyName>Maraphone</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\Item.cs" />
+    <Compile Include="Data\UserDataHelper.cs" />
+    <Compile Include="Model\Fondation.cs" />
+    <Compile Include="Model\Sponsor.cs" />
+    <Compile Include="Model\Sprinter.cs" />
+    <Compile Include="Styles\Converters\CanvasSizeToTrianglePointsConverter.cs" />
+    <Compile Include="Utilities\RelayCommand.cs" />
+    <Compile Include="Utilities\ViewModelBase.cs" />
+    <Compile Include="ViewModel\AuthorizationVM.cs" />
+    <Compile Include="ViewModel\FondationsListVM.cs" />
+    <Compile Include="ViewModel\MoreInfoVM.cs" />
+    <Compile Include="ViewModel\NavigationVM.cs" />
+    <Compile Include="ViewModel\SponsorVM.cs" />
+    <Compile Include="View\AuthorizationViews\AdminViews\Admin.xaml.cs">
+      <DependentUpon>Admin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AuthorizationViews\Authorization.xaml.cs">
+      <DependentUpon>Authorization.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AuthorizationViews\CoordinatorViews\Coordinator.xaml.cs">
+      <DependentUpon>Coordinator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\AuthorizationViews\SprinterViews\Sprinter.xaml.cs">
+      <DependentUpon>Sprinter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common.xaml.cs">
+      <DependentUpon>Common.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Confirm.xaml.cs">
+      <DependentUpon>Confirm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Distantion.xaml.cs">
+      <DependentUpon>Distantion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\HowLong.xaml.cs">
+      <DependentUpon>HowLong.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MainMenu.xaml.cs">
+      <DependentUpon>MainMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MarathoneRegistration.xaml.cs">
+      <DependentUpon>MarathoneRegistration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MoreInfoViews\BMICalclulatorView.xaml.cs">
+      <DependentUpon>BMICalclulatorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MoreInfoViews\FondationsList.xaml.cs">
+      <DependentUpon>FondationsList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\MoreInfoViews\MoreInfo.xaml.cs">
+      <DependentUpon>MoreInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\RegisterOrLoginAsRunner.xaml.cs">
+      <DependentUpon>RegisterOrLoginAsRunner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Registration.xaml.cs">
+      <DependentUpon>Registration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SponsorViews\GetInfo.xaml.cs">
+      <DependentUpon>GetInfo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SponsorViews\GetInfoView.xaml.cs">
+      <DependentUpon>GetInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SponsorViews\SponsorView.xaml.cs">
+      <DependentUpon>SponsorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SponsorViews\Gratitude.xaml.cs">
+      <DependentUpon>Gratitude.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Data\Users.json" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\Microsoft.CSharp.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\mscorlib.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationCore.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\PresentationFramework.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Core.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.DataSetExtensions.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Data.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll" />
+    <ReferencePath Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PublicAssemblies\System.Memory.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Net.Http.dll" />
+    <ReferencePath Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\PublicAssemblies\System.Text.Json.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xaml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.Xml.Linq.dll" />
+    <ReferencePath Include="C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\WindowsBase.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\MainWindow.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\AdminViews\Admin.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\Authorization.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\CoordinatorViews\Coordinator.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\AuthorizationViews\SprinterViews\Sprinter.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Common.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Confirm.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Distantion.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\HowLong.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Login.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MainMenu.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MarathoneRegistration.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\BMICalclulatorView.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\FondationsList.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\MoreInfoViews\MoreInfo.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\RegisterOrLoginAsRunner.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\Registration.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfo.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\GetInfoView.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\SponsorView.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\View\SponsorViews\Gratitude.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\App.g.cs" />
+    <Compile Include="C:\Users\sanya\Desktop\Maraphone1\Maraphone\obj\Debug\GeneratedInternalTypeHelper.g.cs" />
+  </ItemGroup>
+</Project>
